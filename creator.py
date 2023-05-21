@@ -17,7 +17,7 @@ def save_proxies_to_file(proxy_list):
 
 
 def main():
-    num_proxies = 100000  # Change this value to generate a different number of proxies
+    num_proxies = 10000  # Change this value to generate a different number of proxies
     proxies = generate_proxy_list(num_proxies)
     save_proxies_to_file(proxies)
     print('Generated proxies saved to ips.txt')
